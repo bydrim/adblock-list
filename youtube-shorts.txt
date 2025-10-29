@@ -1,6 +1,7 @@
-!
-! youtube shorts
-!
+! Title: Youtube Shorts
+! Description: Hide shorts on Youtube
+! Homepage: https://github.com/bydrim/adblock-list
+! License: https://github.com/bydrim/adblock-list/blob/main/LICENSE
 
 ! homepage shorts
 youtube.com##ytd-rich-shelf-renderer:has(ytd-rich-item-renderer[is-slim-media])
