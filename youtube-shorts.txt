@@ -1,0 +1,18 @@
+!
+! youtube shorts
+!
+
+! homepage shorts
+youtube.com##ytd-rich-shelf-renderer:has(ytd-rich-item-renderer[is-slim-media])
+
+! video recommendation shorts
+youtube.com##ytd-reel-shelf-renderer
+
+! this blocks subdomains and prevents opening if typed in URL bar
+||youtube.com/shorts^$document
+
+! blocks media playing. doesn't work if you open shorts within youtube.
+youtube.com/shorts^$media
+
+! deletes the main content container. doesn't block media playing.
+youtube.com##ytd-shorts
