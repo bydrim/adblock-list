@@ -1,0 +1,10 @@
+! Title: LinkedIn
+! Description: Hide distractions on LinkedIn
+! Homepage: https://github.com/bydrim/adblock-list
+! License: https://github.com/bydrim/adblock-list/blob/main/LICENSE
+! Version: 2026.01.22
+! LastUpdated: 2026-01-22 01:20
+! Expires: 1 week
+
+! block the main feed. LinkedIn is not twitter and it is mostly garbage. Just a distraction.
+linkedin.com##[data-testid="mainFeed"]
