@@ -1,14 +1,14 @@
 ## Block ads and stuff
 
-This is my custom adblocker rules. I use this with uBlock Origin but the rules probably work with most popular adblockers.  
+This is my custom adblocker rules. I use this with [uBlock Origin](https://ublockorigin.com/) but the rules probably work with most popular adblockers.
 
 ## How To Use
-Copy the links below and use your adblocker's 'add a list' functionality. 
+Copy the links below and use your adblocker's 'add a list' functionality.
 
 - [LinkedIn](https://raw.githubusercontent.com/bydrim/adblock-list/refs/heads/main/linkedin.txt)
 - [Youtube Shorts](https://raw.githubusercontent.com/bydrim/adblock-list/refs/heads/main/youtube-shorts.txt)
 
-#### uBlock
+#### uBlock Origin
 Open Dashboard > Filter Lists > Import . Paste the urls and then click 'Apply Changes' on top.
 
 #### Brave Browser (also works on mobile)
