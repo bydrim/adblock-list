@@ -6,5 +6,5 @@
 ! LastUpdated: 2026-01-22 01:20
 ! Expires: 1 week
 
-! block the main feed. LinkedIn is not twitter and it is mostly garbage. Just a distraction.
-linkedin.com##[data-testid="mainFeed"]
+! block the main feed. LinkedIn as 'twitter with job titles' is a bad idea.
+linkedin.com##main[aria-label="Main Feed"]
