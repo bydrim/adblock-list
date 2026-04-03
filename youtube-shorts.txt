@@ -23,6 +23,3 @@ youtube.com##grid-shelf-view-model
 
 ! blocks media playing. doesn't work if you open shorts within youtube.
 youtube.com/shorts^$media
-
-! deletes the main content container. doesn't block media playing.
-youtube.com##ytd-shorts
