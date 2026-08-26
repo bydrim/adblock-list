@@ -18,6 +18,13 @@ youtube.com##ytd-reel-shelf-renderer
 ! shorts in search page
 youtube.com##grid-shelf-view-model
 
+! distort shorts except the first one
+! might not completely stop scrolling or sound playing but prevents doom-scroll
+youtube.com###carousel-items>div:not(:first-child)
+youtube.com##div.layer.touch-controls
+! on desktop
+youtube.com###shorts-inner-container>div:not([id="0"]):not([id="initial-player-container"])
+
 ! this blocks subdomains and prevents opening if typed in URL bar
 ||youtube.com/shorts^$document
 
